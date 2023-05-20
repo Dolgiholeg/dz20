@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="dz20.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" href=" dz20.css" type="text/css">
+</head>
+<body>
+<form action="" id="form1">
+
+        <legend>ПОДПИШИСЬ НА РАССЫЛКУ И ПОЛУЧАЙ ЛУЧШИЕ КУПОНЫ ПЕРВЫМ!</legend>
+        <label>
+            <span>ВАШЕ ИМЯ</span>
+            <input  type="text"  pattern="[А-Яа-яЁё]{4,}" required name="uname" placeholder="Василий" class="h">
+        </label>
+        <label>
+            <span>ВАШ ЭЛЕКТРОННЫЙ АДРЕС</span>
+            <input class="h" type="email" required name="email" placeholder="PupkinVasaj@mail.ru">
+        </label>
+        <label>
+            <span>СОГЛАШАЮСЬ С ПРАВИЛАМИ</span>
+            <input class="h" type="checkbox" required name="rules">
+        </label>
+        <fieldset id="f">
+        <legend>
+            ВЫБЕРЕТЕ КАТЕГОРИЮ ТОВАРОВ:
+        </legend>
+        <label>
+            <span>ОДЕЖДА</span>
+            <input class="h" type="radio" name="product" checked value="ОДЕЖДА">
+        </label>
+        <label>
+            <span>ОБУВЬ</span>
+            <input class="h" type="radio" name="product" value="ОБУВЬ">
+        </label>
+        <label>
+            <span>МЕБЕЛЬ</span>
+            <input class="h" type="radio" name="product" value="МЕБЕЛЬ">
+        </label>
+            <label>
+            <span>ПОСУДА</span>
+            <input class="h" type="radio" name="product" value="ПОСУДА">
+        </label>
+        </fieldset>
+        <input class="h" type="submit" value="ХОЧУ ПОЛУЧАТЬ" id="but1">
+
+ </form>
+
+
+</body>
+</html>
